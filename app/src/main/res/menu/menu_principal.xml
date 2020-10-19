@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCadastrar"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/ic_baseline_update"
+        android:title="Alterar"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/ic_baseline_delete"
+        android:title="Excluir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/ic_baseline_save"
+        android:title="Salvar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mVoltar"
+        android:icon="@drawable/ic_baseline_arrow_back"
+        android:title="Voltar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mPesquisar"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Pesquisar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+</menu>
